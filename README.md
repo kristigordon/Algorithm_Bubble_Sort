@@ -4,7 +4,7 @@ This algorithm is called a niave sort since it is a beginner sorting method that
 
 However, Bubble sort is an extremely common Coding Interview Question so let's get started with this Algorithm.
 
-![image](https://user-images.githubusercontent.com/66803124/118487655-cc7a8880-b6cf-11eb-9f9e-8b735ae0fb82.png)
+![image](https://user-images.githubusercontent.com/66803124/118488287-70fcca80-b6d0-11eb-98d0-7907e62c959c.png)
 
 ```
 def bubble(list_a):
