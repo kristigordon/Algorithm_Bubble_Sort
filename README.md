@@ -6,9 +6,12 @@ However, Bubble sort is an extremely common Coding Interview Question so let's g
 
 ![image](https://user-images.githubusercontent.com/66803124/118488287-70fcca80-b6d0-11eb-98d0-7907e62c959c.png)
 
+The bubble sort orders a list of numbers into aescending values by starting at the beginning and comparing two numbers and either moving on to the next two or flipping the two into aescending value if necessary. This can be seen in the image above. 
+
 ```
 def bubble(list_a):
-    indexing_length = len(list_a) - 1 #SCan not apply comparision starting with last item of list (No item to right)
+    indexing_length = len(list_a) - 1 
+    #-1 because if we are at the last index, we don't have a second number o compare it to since there isn't an item to right.
     sorted = False #Create variable of sorted and set it equal to false
 
     while not sorted:  #Repeat until sorted = True
